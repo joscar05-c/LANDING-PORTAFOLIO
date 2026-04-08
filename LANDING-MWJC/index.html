@@ -1,0 +1,287 @@
+<!doctype html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Metal Working JC - Taller de Torno y Fresado</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap"
+        rel="stylesheet" />
+
+    <link href="styles.css" rel="stylesheet" />
+</head>
+
+<body>
+    <nav class="barra-navegacion">
+        <div class="contenedor-nav">
+            <div class="logo-grupo">
+                <div class="logo-icono">
+                    <span class="material-symbols-outlined">settings_suggest</span>
+                </div>
+                <div class="logo-texto">
+                    <span class="marca">Metal Working</span>
+                    <span class="submarca">JC</span>
+                </div>
+            </div>
+
+            <ul class="enlaces-nav">
+                <li><a href="#servicios">Servicios</a></li>
+                <li><a href="#experiencia">Experiencia</a></li>
+                <li><a href="#galeria">Galería</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+            <button id="btn-tema" class="btn-secundario btn-redondo">
+                <span class="material-symbols-outlined" id="icono-tema">light_mode</span>
+            </button>
+            <button class="btn-primario">Cotizar Proyecto</button>
+        </div>
+    </nav>
+
+    <header class="hero">
+        <div class="hero-fondo">
+            <img src="assets/HERO2.jpg"
+                alt="Torno funcionando" />
+        </div>
+
+        <div class="hero-contenido">
+            <div class="etiqueta-destacada">
+                <span class="punto-animado"></span>
+                Taller de Alta Precisión
+            </div>
+
+            <h1 class="titulo-principal">
+                Precisión <span>Milimétrica</span> en Cada Pieza
+            </h1>
+
+            <p class="descripcion-hero">
+                Fabricación industrial de piezas personalizadas, reparación de
+                componentes y mecanizado CNC con los más altos estándares de
+                tolerancia.
+            </p>
+
+            <div class="botones-hero">
+                <button class="btn-primario">Explorar Servicios</button>
+                <button class="btn-secundario">Ver Portafolio</button>
+            </div>
+        </div>
+
+        <div class="tolerancia-flotante">
+            <span class="numero">0.005<span>mm</span></span>
+            <span class="texto">Tolerancia Máxima</span>
+        </div>
+    </header>
+
+    <section id="experiencia" class="seccion-experiencia">
+        <div class="estadisticas-contenedor">
+            <div class="estadistica-item">
+                <span class="numero">20+</span>
+                <span class="texto">Años de Experiencia</span>
+            </div>
+            <div class="estadistica-item">
+                <span class="numero">15+</span>
+                <span class="texto">Máquinas Especializadas</span>
+            </div>
+            <div class="estadistica-item">
+                <span class="numero">10+</span>
+                <span class="texto">Técnicos Expertos</span>
+            </div>
+        </div>
+    </section>
+
+    <section id="servicios" class="seccion-servicios fondo-industrial">
+        <div class="contenedor">
+            <div class="cabecera-seccion">
+                <div>
+                    <h2 class="subtitulo-seccion">Nuestras Capacidades</h2>
+                    <h3 class="titulo-seccion">Servicios de Mecanizado</h3>
+                </div>
+                <p class="texto-apoyo">
+                    Soluciones integrales desde el diseño hasta el acabado final.
+                </p>
+            </div>
+
+            <div class="servicios-grid">
+                <article class="tarjeta-servicio">
+                    <span class="material-symbols-outlined icono-fondo">settings</span>
+                    <span class="material-symbols-outlined icono-principal">precision_manufacturing</span>
+                    <h4>Torneado CNC</h4>
+                    <p>
+                        Mecanizado de precisión para ejes, casquillos y piezas cilíndricas
+                        con acabados de alta calidad.
+                    </p>
+                    <a href="#" class="enlace-servicio">Ver más
+                        <span class="material-symbols-outlined">arrow_forward</span></a>
+                </article>
+
+                <article class="tarjeta-servicio">
+                    <span class="material-symbols-outlined icono-fondo">grid_on</span>
+                    <span class="material-symbols-outlined icono-principal">architecture</span>
+                    <h4>Fresado</h4>
+                    <p>
+                        Cortes y formas complejas en 3 y 4 ejes para componentes que
+                        requieren exactitud geométrica.
+                    </p>
+                    <a href="#" class="enlace-servicio">Ver más
+                        <span class="material-symbols-outlined">arrow_forward</span></a>
+                </article>
+
+                <article class="tarjeta-servicio">
+                    <span class="material-symbols-outlined icono-fondo">blur_on</span>
+                    <span class="material-symbols-outlined icono-principal">texture</span>
+                    <h4>Rectificado</h4>
+                    <p>
+                        Acabados perfectos para superficies planas y cilíndricas,
+                        garantizando paralelismo.
+                    </p>
+                    <a href="#" class="enlace-servicio">Ver más
+                        <span class="material-symbols-outlined">arrow_forward</span></a>
+                </article>
+
+                <article class="tarjeta-servicio">
+                    <span class="material-symbols-outlined icono-fondo">handyman</span>
+                    <span class="material-symbols-outlined icono-principal">construction</span>
+                    <h4>Taladrado y Roscado</h4>
+                    <p>
+                        Perforaciones axiales exactas y creación de roscas internas o
+                        externas.
+                    </p>
+                    <a href="#" class="enlace-servicio">Ver más
+                        <span class="material-symbols-outlined">arrow_forward</span></a>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <section id="galeria" class="seccion-galeria">
+        <div class="contenedor">
+            <div class="cabecera-seccion">
+                <div>
+                    <h2 class="subtitulo-seccion">Muestra de Trabajo</h2>
+                    <h3 class="titulo-seccion">Galería de Precisión</h3>
+                </div>
+            </div>
+
+            <div class="galeria-grid">
+                <div class="item-galeria destacado-grande">
+                    <img src="assets/galeria 4.jpg"
+                        alt="Ensamblaje Técnico" />
+                    <div class="etiqueta-imagen">Ensamblaje Técnico</div>
+                </div>
+                <div class="item-galeria">
+                    <img src="assets/galeria 2.jpg"
+                        alt="Pieza de precisión" />
+                </div>
+                <div class="item-galeria">
+                    <img src="assets/galeria 1.jpg"
+                        alt="Herramientas" />
+                </div>
+                <div class="item-galeria destacado-ancho">
+                    <img src="assets/galeria 2.jpg"
+                        alt="Acabado Espejo" />
+                    <div class="etiqueta-imagen">Acabado Espejo</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contacto" class="seccion-contacto">
+        <div class="contenedor layout-contacto">
+            <div class="info-contacto">
+                <h2 class="subtitulo-seccion">Contacto</h2>
+                <h3 class="titulo-seccion">Solicite su Cotización</h3>
+                <p>
+                    Nuestro equipo técnico revisará sus planos y requerimientos para
+                    enviarle una propuesta detallada en menos de 24 horas.
+                </p>
+
+                <ul class="lista-contacto">
+                    <li>
+                        <span class="material-symbols-outlined icono">location_on</span>
+                        <div class="datos">
+                            <span class="label">Ubicación Principal</span>
+                            <span class="valor">Jr. Los Girasoles 220<br />Rioja, San Martín, Perú</span>
+                        </div>
+                    </li>
+                    <li>
+                        <span class="material-symbols-outlined icono">call</span>
+                        <div class="datos">
+                            <span class="label">Atención Directa</span>
+                            <span class="valor">+51 927885314</span>
+                        </div>
+                    </li>
+                    <li>
+                        <span class="material-symbols-outlined icono">mail</span>
+                        <div class="datos">
+                            <span class="label">Email Técnico</span>
+                            <span class="valor">pizangojosec@gmail.com</span>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="formulario-contenedor">
+                <form class="formulario">
+                    <div class="fila-form">
+                        <div class="grupo-form">
+                            <label for="nombre">Nombre Completo</label>
+                            <input type="text" id="nombre" placeholder="Ej. Juan Pérez" />
+                        </div>
+                        <div class="grupo-form">
+                            <label for="empresa">Empresa</label>
+                            <input type="text" id="empresa" placeholder="Industrial S.A." />
+                        </div>
+                    </div>
+
+                    <div class="grupo-form">
+                        <label for="email">Correo Electrónico</label>
+                        <input type="email" id="email" placeholder="juan@empresa.com" />
+                    </div>
+
+                    <div class="grupo-form">
+                        <label for="detalles">Detalles del Proyecto</label>
+                        <textarea id="detalles" rows="4"
+                            placeholder="Describa la pieza, material, cantidad..."></textarea>
+                    </div>
+
+                    <button type="submit" class="btn-primario ancho-completo">
+                        Enviar Solicitud
+                        <span class="material-symbols-outlined">send</span>
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer class="pie-pagina">
+        <div class="contenedor layout-footer">
+            <div class="logo-grupo">
+                <div class="logo-icono">
+                    <span class="material-symbols-outlined">settings_suggest</span>
+                </div>
+                <div class="logo-texto">
+                    <span class="marca">Metal Working</span>
+                    <span class="submarca">JC</span>
+                </div>
+            </div>
+
+            <p class="copyright">
+                © 2024 Metal Working JC. Todos los derechos reservados.
+            </p>
+
+            <div class="redes">
+                <a href="#"><span class="material-symbols-outlined">share</span></a>
+                <a href="#"><span class="material-symbols-outlined">shield</span></a>
+                <a href="#"><span class="material-symbols-outlined">policy</span></a>
+            </div>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
+</body>
+
+</html>
