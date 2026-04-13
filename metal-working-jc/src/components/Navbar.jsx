@@ -1,12 +1,15 @@
 import React from "react";
-
 const Navbar = ({ alternarTema, esModoOscuro, abrirModal }) => {
   return (
     <nav className="barra-navegacion">
       <div className="contenedor-nav">
         <div className="logo-grupo">
           <div className="logo-icono">
-            <span className="material-symbols-outlined">settings_suggest</span>
+            <img 
+              src="/logo-oscuro.png"
+              alt="Logo Metal Working JC" 
+              className={`img-logo ${esModoOscuro ? 'logo-blanco' : ''}`} 
+            />
           </div>
           <div className="logo-texto">
             <span className="marca">Metal Working</span>
@@ -28,7 +31,7 @@ const Navbar = ({ alternarTema, esModoOscuro, abrirModal }) => {
             <a href="#contacto">Contacto</a>
           </li>
         </ul>
-        <div style={{ display: "flex", gap: "1rem", alignItems: "center" }}>
+        <div className="nav-botones">
           <button onClick={alternarTema} className="btn-secundario btn-redondo">
             <span className="material-symbols-outlined">
               {esModoOscuro ? "light_mode" : "dark_mode"}
